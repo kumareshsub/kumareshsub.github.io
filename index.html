@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kumaresh Subramanian — Full-stack developer</title>
-  <meta name="description" content="Portfolio of Kumaresh Subramanian — full-stack developer from Chennai. Django, Flask, React. Featured project: Bigdots sports e-commerce." />
+  <title>Kumaresh Subramanian — Full-stack &amp; mobile developer</title>
+  <meta name="description" content="Portfolio of Kumaresh Subramanian — Django, React, and React Native. Featured: Bigdots sports e-commerce and Laura’s Brownie mobile seller app." />
   <meta name="theme-color" content="#0f1c32" />
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,24 +29,24 @@
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">Chennai · Full-stack · Open to work</p>
+      <p class="eyebrow">Chennai · Full-stack &amp; mobile · Open to work</p>
       <h1>
         I build product-shaped
-        <span>web apps</span>
+        <span>web and mobile apps</span>
         people can actually use.
       </h1>
       <p class="lede">
-        Python on the server. React in the browser. Commerce flows, role-based admin,
-        and learning tools — shipped as complete projects, not just demos.
+        Python and Django on the server. React on the web. React Native on the phone.
+        Current work: a full sports store, plus a seller app for a brownie business.
       </p>
       <div class="hero-actions">
         <a class="btn primary" href="#work">See selected work</a>
         <a class="btn ghost" href="https://github.com/kumareshsub" target="_blank" rel="noreferrer">GitHub profile</a>
       </div>
       <ul class="stats">
-        <li><strong>4</strong> public projects</li>
-        <li><strong>1000+</strong> seeded products in Bigdots</li>
-        <li><strong>3</strong> roles in one store</li>
+        <li><strong>2</strong> featured builds</li>
+        <li><strong>Bigdots</strong> sports e-commerce</li>
+        <li><strong>Laura</strong> brownie seller app</li>
       </ul>
     </section>
 
@@ -56,30 +56,56 @@
         <h2>Projects on GitHub</h2>
       </div>
 
-      <article class="featured">
-        <div class="featured-copy">
-          <p class="tag">Featured · Django REST + React</p>
-          <h3>Bigdots — sports e-commerce</h3>
-          <p>
-            A full shopping stack: catalogue, search, cart, wishlist, checkout, orders,
-            and two admin tiers. One API serves both a React storefront and Django templates.
-          </p>
-          <ul class="chips">
-            <li>Django 5</li>
-            <li>DRF + JWT</li>
-            <li>React 18</li>
-            <li>Vite</li>
-            <li>Role-based admin</li>
-          </ul>
-          <div class="hero-actions">
-            <a class="btn primary" href="https://github.com/kumareshsub/E-commerce" target="_blank" rel="noreferrer">View repository</a>
-            <a class="btn ghost" href="https://github.com/kumareshsub/E-commerce#readme" target="_blank" rel="noreferrer">Read the write-up</a>
+      <div class="featured-stack">
+        <article class="featured">
+          <div class="featured-copy">
+            <p class="tag">Current · Django REST + React</p>
+            <h3>Bigdots — sports e-commerce</h3>
+            <p>
+              A full shopping stack: catalogue, search, cart, wishlist, checkout, orders,
+              and two admin tiers. One API serves both a React storefront and Django templates.
+            </p>
+            <ul class="chips">
+              <li>Django 5</li>
+              <li>DRF + JWT</li>
+              <li>React 18</li>
+              <li>Vite</li>
+              <li>Role-based admin</li>
+            </ul>
+            <div class="hero-actions">
+              <a class="btn primary" href="https://github.com/kumareshsub/E-commerce" target="_blank" rel="noreferrer">View repository</a>
+              <a class="btn ghost" href="https://github.com/kumareshsub/E-commerce#readme" target="_blank" rel="noreferrer">Read the write-up</a>
+            </div>
           </div>
-        </div>
-        <div class="featured-visual">
-          <img src="https://raw.githubusercontent.com/kumareshsub/E-commerce/main/docs/bigdots-banner.png" alt="Bigdots sports store banner" />
-        </div>
-      </article>
+          <div class="featured-visual">
+            <img src="https://raw.githubusercontent.com/kumareshsub/E-commerce/main/docs/bigdots-banner.png" alt="Bigdots sports store banner" />
+          </div>
+        </article>
+
+        <article class="featured laura">
+          <div class="featured-copy">
+            <p class="tag">Mobile · Expo + React Native</p>
+            <h3>Laura’s Brownie — seller app</h3>
+            <p>
+              Android and iOS app for a brownie business: login, products, clients, sales,
+              local SQLite, CSV backup, and sync. Built with Expo Router so staff can run the shop from a phone.
+            </p>
+            <ul class="chips">
+              <li>React Native</li>
+              <li>Expo 56</li>
+              <li>SQLite</li>
+              <li>Secure Store</li>
+              <li>CSV backup</li>
+            </ul>
+            <div class="hero-actions">
+              <a class="btn primary" href="https://github.com/kumareshsub/laura" target="_blank" rel="noreferrer">View repository</a>
+            </div>
+          </div>
+          <div class="featured-visual">
+            <img src="https://raw.githubusercontent.com/kumareshsub/laura/master/assets/images/icon.png" alt="Laura’s Brownie app icon" />
+          </div>
+        </article>
+      </div>
 
       <div class="grid">
         <article class="card">
@@ -132,10 +158,11 @@
           <h3>Frontend</h3>
           <ul class="chips">
             <li>React</li>
+            <li>React Native</li>
+            <li>Expo</li>
             <li>JavaScript</li>
             <li>HTML / CSS</li>
             <li>Vite</li>
-            <li>Ant Design</li>
           </ul>
         </div>
         <div>
@@ -143,7 +170,8 @@
           <ul class="chips">
             <li>Auth &amp; roles</li>
             <li>Checkout flows</li>
-            <li>Admin dashboards</li>
+            <li>Seller / admin apps</li>
+            <li>Offline SQLite</li>
             <li>REST APIs</li>
             <li>Git / GitHub</li>
           </ul>
@@ -157,20 +185,20 @@
         <h2>Builder first, then framework</h2>
       </div>
       <p>
-        I’m <strong>Kumaresh Subramanian</strong>, a full-stack developer from Chennai.
-        I like projects that have a customer path and an ops path — shoppers checking out,
-        staff fulfilling orders, learners practising a sentence.
+        I’m <strong>Kumaresh Subramanian</strong>, a full-stack and mobile developer from Chennai.
+        I like projects with a customer path and an ops path — shoppers checking out,
+        staff fulfilling orders, a baker tracking sales on a phone.
       </p>
       <p>
-        Recent focus: taking a sports store from catalogue to checkout with JWT auth and
-        super-admin controls. Next: tighter payments, tests, and a public demo deploy.
+        Current work: <strong>Bigdots</strong>, a Django REST + React sports store, and
+        <strong>Laura’s Brownie</strong>, an Expo seller app for products, clients, sales and backup.
       </p>
     </section>
 
     <section id="contact" class="section contact">
       <p class="eyebrow">Contact</p>
       <h2>Let’s build something</h2>
-      <p>Open to internships, junior full-stack roles, and freelance web work.</p>
+      <p>Open to internships, junior full-stack or mobile roles, and freelance product work.</p>
       <div class="hero-actions">
         <a class="btn primary" href="mailto:kumareshsubramanian2001@gmail.com">Email me</a>
         <a class="btn ghost" href="https://github.com/kumareshsub" target="_blank" rel="noreferrer">github.com/kumareshsub</a>
